@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script src="js/jquery-1.11.1.min.js"></script> <!-- you'll need to put this locally or on a web server somewhere -->
+<script>
+$.ajaxSetup({cache:true});
+$.getJSON("http://feed.theplatform.com/f/LOdVRC/sample_hackathon?callback=?",
+    {
+        fields: "content",
+        fileFields: "url",
+        byGuid: "smurfs-2-movie"
+    },
+    function(data) {
+        if ( data.responseCode == null) {
+            if ( data.entries && data.entries[0] && data.entries[0].content && data.entries[0].content[0] ) {
+                alert("URL is \"" + data.entries[0].content[0].url + "\"");
+            } else {
+                alert("GUID not found");
+            }
+        } else {
+            alert("Error code: " + data.responseCode + ", Description: " + data.description);
+        }
+    });
+</script>
+</body>
+</html>
