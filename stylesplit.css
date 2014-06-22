@@ -166,6 +166,16 @@ a{
 	width:1;
 	
 	}
-#bx-pager a img{
-	width:15%;
-}
+	
+	#bx-pager a{
+	opacity:0.5;
+	}
+
+#bx-pager .active{
+	opacity:1;
+	background-color:inherit;	}
+
+#bx-pager a img {
+    width: 180px;
+    margin: 0 8px;
+	}
