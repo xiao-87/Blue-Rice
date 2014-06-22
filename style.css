@@ -63,10 +63,7 @@ header h2{
 	background:url(images/double.jpg);
 	}		
 	
-#second{
-	position: relative;
-top: 600px;
-}	
+	
 	
 #second h2{
 	font-family:"Avenir Next Condensed",Arial, Helvetica, sans-serif;
@@ -78,8 +75,7 @@ top: 600px;
 	}	
 	
 a{
-	list-style:none;
-	}
+	text-decoration:none;	}
 	
 .half:hover{
 	background-color:#c6eaf1;
