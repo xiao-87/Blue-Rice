@@ -1,0 +1,171 @@
+body, html{
+	margin:0px;
+	}
+
+h1, h2, h3{
+	font-family:'Baron Neue',Arial, Helvetica, sans-serif;
+
+	}
+
+a{
+	color:#4f8693;
+	}
+	
+a:hover{
+	color:#8dbec8;
+	}	
+
+#logo{
+	background:url(images/logo.jpg) no-repeat;
+	height:60px;
+	width:120px;
+	margin: 20px 0px 0 15px;
+	background-size:50%;
+	
+	}
+
+header h2{
+	font-size:6em;
+	color:#217888;
+	text-align:center;
+	margin: -35px 0px 30px;
+		}
+	
+
+.half{
+	width:50%;
+	height:600px;
+	float:left;
+	display:inline;
+	}	
+
+.light{
+	background-color:#8dbec8;
+	}	
+.dark{
+	background-color:#8dc8c6;
+	}	
+	
+.half h3{
+	color:#fff;
+	text-align:center;
+	font-size:2em;
+	
+	}	
+	
+.half img{
+	width:640px;
+	margin: 0 auto;
+	}	
+	
+.middle_img{
+	width:640px;
+	height:339px;
+	margin:0 auto;
+	
+	}		
+	
+.light .middle_img{
+	background:url(images/single.jpg);
+	}	
+	
+.dark .middle_img{
+	background:url(images/double.jpg);
+	}		
+	
+	
+	
+#second h2{
+	font-family:"Avenir Next Condensed",Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:6em;
+	line-height:4em;
+	color:#398b9b;	
+	font-weight:400;
+	}	
+	
+a{
+	text-decoration:none;	}
+	
+.half:hover{
+	background-color:#c6eaf1;
+	}	
+	
+/* Single page css*/
+
+#second{
+	position: relative;
+	}
+
+.bxslider{
+	background-color:#398b9b;
+	width:100%;
+	height:600px;
+	
+	
+	}	
+	
+.english, .spanlsh{
+	height: 20px;
+	border: 1px solid #C6EAF1;
+	color: #C6EAF1;
+	width: 81px;
+	margin: 60px 0px 0px;
+	position: relative;
+ -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  left: -31px;
+  
+ 
+	}
+
+.english a, .spanlsh a{
+	color: #C6EAF1;
+	margin: 0 15px;	
+	}
+
+
+
+.active{
+	background-color: #C6EAF1;
+	}	
+	
+.active a{
+	color:#fff;
+	}	
+	
+	
+	
+#bx-pager{
+	float: left;
+	position: relative;
+	left: 70px;
+	top: -144px;
+	}	
+	
+#slider-next, #slider-prev{
+	font-weight: bold;
+	font-size: 3em;
+	position: absolute;
+	top: 25px;
+	color:#4f8693;
+	
+	}	
+		
+	
+#slider-next{
+	right: 20px;
+	
+	}	
+	
+#slider-prev{
+	left: 33px;
+	width:1;
+	
+	}
+#bx-pager a img{
+	width:15%;
+}
