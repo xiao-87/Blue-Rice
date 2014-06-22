@@ -186,3 +186,18 @@ margin-left: 75%;
 margin-top: -4%;
 padding-bottom: 1.5%;
 }
+
+.mode{
+	float: right;
+	position: relative;
+	top: -37px;
+	padding: 10px;
+	
+	}
+	
+.mode a:hover{
+	color:#4f8693;
+	
+	}
+
+	
