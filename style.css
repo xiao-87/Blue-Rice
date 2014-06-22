@@ -179,4 +179,12 @@ a{
 	
 	}	
 	
-#bx-pager	
+#bx-pager{}
+
+#search{
+
+margin-left: 75%;
+margin-top: -5%;
+padding-bottom: 16px;
+
+}
