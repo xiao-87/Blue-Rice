@@ -1,0 +1,22 @@
+<html>
+ 
+<div id="playerdiv" style="width:640;height:360">
+<script src="http://player.theplatform.com/p/JStuSC/hackathon_light/embed/select/Pn7sMpiHHkvU?form=javascript"></script>
+</div>
+ 
+<script>
+  $pdk.ready(function() {
+    if (console && console.log) {
+        console.log("The remote player is loaded and ready.");
+    }
+    $pdk.controller.addEventListener("OnMediaPlaying", logTime);
+  });
+ 
+  function logTime(event) {
+    if (console && console.log) {
+        console.log(event.data.currentTime);
+    }
+  }
+</script>
+ 
+</html>
