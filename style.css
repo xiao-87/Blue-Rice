@@ -94,6 +94,7 @@ a{
 	width:100%;
 	height:600px;
 	
+	
 	}	
 	
 .english, .spanlsh{
@@ -108,6 +109,8 @@ a{
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
+  left: -31px;
+  
  
 	}
 
@@ -131,13 +134,25 @@ a{
 #bx-pager{
 	float: left;
 	position: relative;
-	top: -129px;
 	left: 100px;
+	top: -144px;
 	}	
 	
 #slider-next, #slider-prev{
 	font-weight: bold;
 	font-size: 3em;
 	position: absolute;
+	top: 25px;
+	color:#4f8693;
+	
+	}	
+	
+#slider-next{
+	right: 20px;
+	
+	}	
+	
+#slider-prev{
+	left: 33px;
 	
 	}	
