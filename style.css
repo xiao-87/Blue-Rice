@@ -7,6 +7,14 @@ h1, h2, h3{
 
 	}
 
+a{
+	color:#4f8693;
+	}
+	
+a:hover{
+	color:#8dbec8;
+	}	
+
 #logo{
 	background:url(images/logo.jpg) no-repeat;
 	height:183px;
@@ -146,6 +154,7 @@ a{
 	color:#4f8693;
 	
 	}	
+		
 	
 #slider-next{
 	right: 20px;
