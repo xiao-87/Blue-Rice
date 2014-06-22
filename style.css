@@ -23,7 +23,7 @@ header h2{
 	
 
 .half{
-	width:49.9%;
+	width:50%;
 	height:600px;
 	float:left;
 	display:inline;
@@ -33,7 +33,7 @@ header h2{
 	background-color:#8dbec8;
 	}	
 .dark{
-	background-color:#4f8693;
+	background-color:#8dc8c6;
 	}	
 	
 .half h3{
@@ -64,9 +64,18 @@ header h2{
 	}		
 	
 #second h2{
-	font-family:"Avenir Next Condensed" ,Arial, Helvetica, sans-serif;
+	font-family:"Avenir Next Condensed",Arial, Helvetica, sans-serif;
 	text-align:center;
 	font-size:6em;
 	line-height:4em;
 	color:#398b9b;	
+	font-weight:400;
+	}	
+	
+a{
+	list-style:none;
+	}
+	
+.half:hover{
+	background-color:#c6eaf1;
 	}	
