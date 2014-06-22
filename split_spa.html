@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="stylesplit.css"/>
+<script src="js/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider.css" rel="stylesheet" />
+<title>Blue Rice - Single</title>
+</head>
+
+<body>
+
+<header>
+<div id="logo"></div>
+</header>
+
+<div id="wrapper">
+
+<div id="first">
+<ul class="bxslider">
+  <li><a href="http://player.theplatform.com/p/JStuSC/hackathon_light/embed/select/dNW2N11IGq0Z/feed/telemundo_hackathon"><img src="images/slide4.jpg"/></a></li>
+  <li><a href="http://player.theplatform.com/p/JStuSC/hackathon_light/embed/select/hYJvoMHlIyDb/feed/universalpicturesest_hackathon"><img src="images/slide5.jpg" /></a></li>
+  <li><a href="http://player.theplatform.com/p/JStuSC/hackathon_light/embed/select/JTLrd_Xf37u2/feed/telemundo_hackathon"><img src="images/slide6.jpg" /></a></li>
+ 
+</ul>
+</div>  
+
+<div id="second">
+<div class="english"><a href="single_eng.html">English</a></div>
+<div class="spanlsh active"><a href="single_spa.html">spanlsh</a></div>
+
+<script>
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  pagerCustom: '#bx-pager',
+  nextSelector: '#slider-next',
+  prevSelector: '#slider-prev',
+  nextText: '>',
+  prevText: '<'
+});
+
+});
+
+</script>
+  <p><span id="slider-prev"></span>
+<div id="bx-pager">
+  <a data-slide-index="0" href=""><img src="images/thumb4.jpg" /></a>
+  <a data-slide-index="1" href=""><img src="images/thumb5.jpg" /></a>
+  <a data-slide-index="2" href=""><img src="images/thumb6.jpg" /></a>
+
+</div>
+ <span id="slider-next"></span></p>
+
+<!-- <ul class="bxslider">
+  <li><img src="images/thumb1.jpg" /></li>
+  <li><img src="images/thumb2.jpg" /></li>
+  <li><img src="images/thumb3.jpg" /></li>
+  <li><img src="images/thumb4.jpg" /></li>
+  <li><img src="images/thumb5.jpg" /></li>
+  <li><img src="images/thumb6.jpg" /></li>
+</ul>-->
+
+
+</div><!--/second-->
+
+</div><!--/wrapper-->
+
+
+
+
+</body>
+</html>
