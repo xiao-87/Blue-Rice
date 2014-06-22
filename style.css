@@ -17,7 +17,7 @@ a:hover{
 
 #logo{
 	background:url(images/logo.jpg) no-repeat;
-	height: 95px;
+	height: 120px;
 	width: 145px;
 	margin: 20px 0px 0 15px;
 	background-size:90%;
@@ -185,7 +185,7 @@ a{
 #search{
 margin-left: 75%;
 margin-top: -4%;
-padding-bottom: 1.5%;
+padding-bottom: 0.5%;
 }
 
 .mode{
