@@ -179,3 +179,23 @@ a{
     width: 180px;
     margin: 0 8px;
 	}
+	
+
+#search {
+    margin-left: 55%;
+    margin-top: -4%;
+	}
+
+.mode {
+    float: right;
+    position: relative;
+    top: -23px;
+    padding: 10px;
+    z-index: 9999;
+    right: 5px;
+}
+	
+.mode a:hover{
+	color:#4f8693;
+	
+	}	

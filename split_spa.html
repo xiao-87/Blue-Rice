@@ -11,10 +11,10 @@
 </head>
 
 <body>
-<style>header{
-	height:115px;
+<style>
+#logo{
+	background:none;
 	}
-    
     
   .bx-viewport{
 	 width:101%;
@@ -25,7 +25,15 @@
 <header>
 
 
+
+<div id="logo"></div>
+  <form id="search">
+    <input name="q" placeholder="Search Videos">
+    <input type="submit" value="Search">
+  </form>
 </header>
+
+<div class="mode active"><a href="single.html">Single Screen</a></div>
 
 <div id="wrapper">
 
@@ -39,9 +47,8 @@
 </div>  
 
 <div id="second">
-<div class="english"><a href="single.html">English</a></div>
-<div class="spanlsh active"><a href="single_spa.html">spanlsh</a></div>
-
+<div class="english"><a href="singlesplit.html">English</a></div>
+<div class="spanlsh active"><a href="split_spa.html">Spanlsh</a></div>
 <script>
 
 $(document).ready(function(){
