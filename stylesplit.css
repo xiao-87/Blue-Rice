@@ -179,6 +179,7 @@ a{
     width: 180px;
     margin: 0 8px;
 	}
+<<<<<<< HEAD
 	
 
 #search {
@@ -199,3 +200,12 @@ a{
 	color:#4f8693;
 	
 	}	
+=======
+
+#search{
+margin-left: 52%;
+margin-top: 0%;
+padding-bottom: 2.5%;
+padding-top: 13%;
+}
+>>>>>>> FETCH_HEAD
